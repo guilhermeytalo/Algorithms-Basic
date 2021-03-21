@@ -1,11 +1,14 @@
-
-// Lista 2 - B
-
+/*
+1) O IMC – Indice de Massa Corporal é um critério da 
+Organização Mundial de Saúde para dar uma indicação 
+sobre a condição de peso de uma pessoa adulta. 
+A fórmula é  imc = peso / (altura)² 
+Com  o valor do IMC calculado o programa 
+deve informar a condição . 
+Use a tabela abaixo
+*/
 #include <stdio.h>
 
-/*
-1) O IMC – Indice de Massa Corporal é um critério da Organização Mundial de Saúde para dar uma indicação sobre a condição de peso de uma pessoa adulta. A fórmula é  imc = peso / (altura)² Com  o valor do IMC calculado o programa deve informar a condição . Use a tabela abaixo
-*/
 
 int main(void) {
   double altura;
@@ -21,7 +24,7 @@ int main(void) {
   imc = peso / (altura*altura);
 
 
-  //processamento
+  //processamento e saída
   if (imc < 18.5) {
     printf("Abaixo do peso");
   } else if (imc < 24.9) {   
